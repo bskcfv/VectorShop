@@ -1,0 +1,5 @@
+#Variables de Entorno
+.env
+.env.*
+
+node_modules/
