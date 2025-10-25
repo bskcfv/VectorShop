@@ -23,6 +23,19 @@
 
 ---
 
+### 🔍 Buscar Productos (Vector Search)
+
+<p align="center">
+  <img src="./doc/gif2.gif" width="600" alt="Demostración del sistema de búsqueda vectorial en acción"/>
+</p>
+
+1. El usuario describe lo que desea (ej: *“fruta roja con semillas”*).
+2. Se genera un embedding del texto.
+3. MongoDB Atlas realiza una **búsqueda vectorial** en la colección.
+4. Se muestran los productos más similares semánticamente.
+
+---
+
 ## ⚙️ Configuración Inicial
 
 ### 1️⃣ Instalación del entorno
@@ -131,19 +144,6 @@ Welcome!!
 2. Se genera un **embedding IA** de la descripción.
 3. El producto se inserta en la base con su vector.
 4. Se muestra el ID del documento insertado.
-
----
-
-### 🔍 Buscar Productos (Vector Search)
-
-<p align="center">
-  <img src="./doc/gif2.gif" width="600" alt="Demostración del sistema de búsqueda vectorial en acción"/>
-</p>
-
-1. El usuario describe lo que desea (ej: *“fruta roja con semillas”*).
-2. Se genera un embedding del texto.
-3. MongoDB Atlas realiza una **búsqueda vectorial** en la colección.
-4. Se muestran los productos más similares semánticamente.
 
 ---
 
