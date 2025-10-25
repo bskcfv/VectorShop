@@ -122,6 +122,11 @@ Welcome!!
 
 ### 🧩 Insertar un Producto
 
+<p align="center">
+  <img src="./doc/gif1.gif" width="600" alt="Demostración del sistema de búsqueda vectorial en acción"/>
+</p>
+
+
 1. El usuario ingresa nombre, descripción y stock.
 2. Se genera un **embedding IA** de la descripción.
 3. El producto se inserta en la base con su vector.
@@ -130,6 +135,10 @@ Welcome!!
 ---
 
 ### 🔍 Buscar Productos (Vector Search)
+
+<p align="center">
+  <img src="./doc/gif2.gif" width="600" alt="Demostración del sistema de búsqueda vectorial en acción"/>
+</p>
 
 1. El usuario describe lo que desea (ej: *“fruta roja con semillas”*).
 2. Se genera un embedding del texto.
